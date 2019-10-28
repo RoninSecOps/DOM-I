@@ -56,3 +56,9 @@ multipleSelections[5].textContent = siteContent['nav']['nav-item-6'];
 
 const headerImg = document.getElementById('cta-img');
 headerImg.src = siteContent['cta']['img-src'];
+
+const contentH1 = document.querySelectorAll('.cta-text h1');
+contentH1[0].textContent = siteContent['cta']['h1'];
+
+const button = document.querySelector('.cta-text button');
+button.textContent = siteContent['cta']['button'];
