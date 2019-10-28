@@ -102,3 +102,8 @@ navItem8.textContent = 'End';
 navItem8.setAttribute('href', '#');
 const addNavItem8 = document.querySelector('nav');
 addNavItem8.append(navItem8);
+
+const greenNav = document.querySelectorAll('nav a');
+greenNav.forEach(function(cV) {
+  cV.style.color = 'green';
+});
