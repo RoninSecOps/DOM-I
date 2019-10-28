@@ -82,3 +82,8 @@ mainContentPs[4].textContent = siteContent['main-content']['vision-content'];
 
 const contactH4 = document.querySelectorAll('.contact h4');
 contactH4[0].textContent = siteContent['contact']['contact-h4'];
+
+const contactPs = document.querySelectorAll('.contact p');
+contactPs[0].textContent = siteContent['contact']['address'];
+contactPs[1].textContent = siteContent['contact']['phone'];
+contactPs[2].textContent = siteContent['contact']['email'];
