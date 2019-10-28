@@ -65,3 +65,10 @@ button.textContent = siteContent['cta']['button'];
 
 const horizontalImg = document.getElementById('middle-img');
 horizontalImg.src = siteContent['main-content']['middle-img-src'];
+
+const mainContentH4s = document.querySelectorAll('.text-content h4');
+mainContentH4s[0].textContent = siteContent['main-content']['features-h4'];
+mainContentH4s[1].textContent = siteContent['main-content']['about-h4'];
+mainContentH4s[2].textContent = siteContent['main-content']['services-h4'];
+mainContentH4s[3].textContent = siteContent['main-content']['product-h4'];
+mainContentH4s[4].textContent = siteContent['main-content']['vision-h4'];
