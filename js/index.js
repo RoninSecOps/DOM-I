@@ -79,3 +79,6 @@ mainContentPs[1].textContent = siteContent['main-content']['about-content'];
 mainContentPs[2].textContent = siteContent['main-content']['services-content'];
 mainContentPs[3].textContent = siteContent['main-content']['product-content'];
 mainContentPs[4].textContent = siteContent['main-content']['vision-content'];
+
+const contactH4 = document.querySelectorAll('.contact h4');
+contactH4[0].textContent = siteContent['contact']['contact-h4'];
