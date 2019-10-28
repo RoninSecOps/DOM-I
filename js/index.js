@@ -53,3 +53,6 @@ multipleSelections[2].textContent = siteContent['nav']['nav-item-3'];
 multipleSelections[3].textContent = siteContent['nav']['nav-item-4'];
 multipleSelections[4].textContent = siteContent['nav']['nav-item-5'];
 multipleSelections[5].textContent = siteContent['nav']['nav-item-6'];
+
+const headerImg = document.getElementById('cta-img');
+headerImg.src = siteContent['cta']['img-src'];
