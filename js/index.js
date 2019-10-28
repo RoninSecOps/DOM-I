@@ -72,3 +72,10 @@ mainContentH4s[1].textContent = siteContent['main-content']['about-h4'];
 mainContentH4s[2].textContent = siteContent['main-content']['services-h4'];
 mainContentH4s[3].textContent = siteContent['main-content']['product-h4'];
 mainContentH4s[4].textContent = siteContent['main-content']['vision-h4'];
+
+const mainContentPs = document.querySelectorAll('.text-content p');
+mainContentPs[0].textContent = siteContent['main-content']['features-content'];
+mainContentPs[1].textContent = siteContent['main-content']['about-content'];
+mainContentPs[2].textContent = siteContent['main-content']['services-content'];
+mainContentPs[3].textContent = siteContent['main-content']['product-content'];
+mainContentPs[4].textContent = siteContent['main-content']['vision-content'];
