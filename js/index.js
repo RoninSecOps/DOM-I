@@ -88,5 +88,17 @@ contactPs[0].textContent = siteContent['contact']['address'];
 contactPs[1].textContent = siteContent['contact']['phone'];
 contactPs[2].textContent = siteContent['contact']['email'];
 
-const $footerS = document.querySelectorAll('footer p');
-$footerS[0].textContent = siteContent['footer']['copyright'];
+const footerS = document.querySelectorAll('footer p');
+footerS[0].textContent = siteContent['footer']['copyright'];
+
+const navItem7 = document.createElement('a');
+navItem7.textContent = 'Start';
+navItem7.setAttribute('href', '#');
+const addNavItem7 = document.querySelector('nav');
+addNavItem7.prepend(navItem7);
+
+const navItem8 = document.createElement('a');
+navItem8.textContent = 'End';
+navItem8.setAttribute('href', '#');
+const addNavItem8 = document.querySelector('nav');
+addNavItem8.append(navItem8);
