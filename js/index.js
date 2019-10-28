@@ -62,3 +62,6 @@ contentH1[0].textContent = siteContent['cta']['h1'];
 
 const button = document.querySelector('.cta-text button');
 button.textContent = siteContent['cta']['button'];
+
+const horizontalImg = document.getElementById('middle-img');
+horizontalImg.src = siteContent['main-content']['middle-img-src'];
